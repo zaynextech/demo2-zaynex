@@ -73,20 +73,22 @@ export default function HomeHero() {
             {/* RIGHT IMAGE */}
             <div className="relative flex items-center justify-center w-full">
 
-              <img
-                src="/house1.png"
-                alt="Dream Home"
-                className="
-                  w-full
-                  max-w-175
-                  lg:max-w-212.5
-                  object-contain
-                  scale-100
-                  lg:scale-110
-                "
-              />
+  <img
+    src="/house1.png"
+    alt="Dream Home"
+    loading="eager"
+    className="
+      w-full
+      max-w-175
+      lg:max-w-212.5
+      h-auto
+      object-contain
+      select-none
+      pointer-events-none
+    "
+  />
 
-            </div>
+</div>
 
           </div>
 
